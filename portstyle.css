@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Navigation starts*/
+.NavBox {
+  background-color: #222222;
+  border-color: #080808;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+nav ul {
+  list-style: none;
+  text-align: left;
+}
+
+li a {
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 17;
+  color: grey;
+}
+
+#Bootsrapt {
+  font-size: 19px;
+}
+
+.NavBox a:hover {
+  color: white;
+}
+/* Navigaatio ends*/
+
+/*header starts */
+.Otsikko {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid grey;
+  width: 1160px;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+small {
+  font-size: 65%;
+  color: #999999;
+}
+
+/*header ends */
+
+/*Linkki box alkaa*/
+
+.contti {
+  display: flex;
+  width: 1169px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contti h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.contti h3 a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.contti h3 a:hover {
+  text-decoration: underline;
+}
+
+.box {
+  padding-right: 20px;
+  transition: 1s;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  border-radius: 25px;
+}
+/*Linkki box loppuu*/
+
+hr {
+  width: 1169px;
+  margin: 45px auto;
+  border-top: 1px solid grey;
+}
+
+/*pagination start*/
+
+.rowtext-center {
+  text-align: center;
+}
+
+.pagination a {
+  font-size: larger;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.pagination a.active {
+  background-color: #222222;
+  color: white;
+}
+
+.pagination a:hover {
+  background-color: grey;
+}
+
+/*pagination end*/
